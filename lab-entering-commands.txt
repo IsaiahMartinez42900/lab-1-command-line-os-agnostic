@@ -79,7 +79,7 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
-----------
+Command <UP> was repeated----------
 
 
 
