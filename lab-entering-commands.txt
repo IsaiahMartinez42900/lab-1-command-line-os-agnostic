@@ -103,7 +103,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+./   ../  'My Music'@  'My Pictures'@  'My Videos'@ was repeated
 
 
 ==========
@@ -112,8 +112,8 @@ What command was repeated?
 <UP><UP><UP><DOWN><ENTER>
 
 What command was repeated?
-Command <UP> was repeated----------
-
+----------
+./   ../  'My Music'@  'My Pictures'@  'My Videos'@
 
 
 ==========
@@ -123,8 +123,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
-
+It turns into bin
 
 ==========
 8.  Type:$ ls doesnotexist
@@ -133,20 +132,20 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+You press the up key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-a and -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
@@ -158,13 +157,13 @@ Copy and paste the output below.
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+-a Documents
 
 ==========
 14.  Type:$ foo<ENTER>
@@ -173,7 +172,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+bash: foo: command not found
 
 
 ==========
@@ -183,7 +182,7 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
-
+bash: foo: command not found
 
 
 ==========
@@ -193,3 +192,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+Command:ls 
+flag:-a
+argument:-a Desktop
+prompt:ls -a Desktop
