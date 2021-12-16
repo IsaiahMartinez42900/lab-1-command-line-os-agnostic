@@ -60,12 +60,12 @@ It changes to ls DO
 ----------
 Desktop/    Documents/  Downloads/
 
-
+It only reacted when I pressed tab twice
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.  
  Documents/ Downloads/ 
  ----------
-rdrgeerwtger yg erwy brg
+ls D
 
 
 ==========
@@ -73,7 +73,7 @@ rdrgeerwtger yg erwy brg
 ls: cannot access 'Do': No such file or directory
 ----------
 
-
+ls: cannot access 'D': No such file or directory
 
 ==========
 3.  Type:$ ls -l Documents<ENTER>
@@ -82,8 +82,10 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-'My Music'@   
-'My Pictures'@  
+  
+total 0
+lrwxrwxrwx 1 imart 197609 20 Sep  7 21:06 'My Music' -> /c/Users/imart/Music/
+lrwxrwxrwx 1 imart 197609 23 Sep  7 21:06 'My Pictures' -> /c/Users/imart/Pictures
 
 
 ==========
@@ -103,6 +105,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
+The same command from question 4 was repeated.
 ./   ../  'My Music'@  'My Pictures'@  'My Videos'@ was repeated
 
 
@@ -113,6 +116,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
+The same command from before was repeated.
 ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
 
 
@@ -123,7 +127,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-It turns into bin
+It turns into bin and shows alot of code in alphabetical order.
 
 ==========
 8.  Type:$ ls doesnotexist
@@ -145,13 +149,13 @@ You press the up key
 10.  Name two flags that we used in this exercise.
 ----------
 
--a and -l
+ls -a and ls -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+You press <TAB>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
@@ -194,5 +198,5 @@ What is the command, flag, argument, and prompt?
 ----------
 Command:ls 
 flag:-a
-argument:-a Desktop
-prompt:ls -a Desktop
+argument: Desktop
+prompt:$
